@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/introd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kamil.magisterkaone.Odtwarzacz">
+
+    <ListView
+        android:id="@+id/lvPlaylist"
+        android:layout_width="407dp"
+        android:layout_height="410dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_alignParentTop="true" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="359dp"
+        android:layout_height="22dp"
+        tools:layout_editor_absoluteY="87dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_below="@+id/lvPlaylist"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/btnPlay"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        tools:layout_editor_absoluteY="155dp"
+        tools:layout_editor_absoluteX="136dp"
+        android:enabled="false"
+        android:background="@drawable/button"
+        android:layout_above="@+id/progresstime"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="355dp"
+        android:layout_height="37dp"
+        android:id="@+id/song"
+        tools:layout_editor_absoluteY="275dp"
+        tools:layout_editor_absoluteX="16dp"
+        android:textSize="30dp"
+        android:textColor="@color/songlist"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/seekBar"
+        android:layout_alignEnd="@+id/seekBar" />
+
+    <TextView
+        android:id="@+id/progresstime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=". . ."
+        android:textSize="20dp"
+        android:textColor="@color/songlist"
+        android:layout_above="@+id/song"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp" />
+
+</RelativeLayout>

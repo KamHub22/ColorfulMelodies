@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/introd2"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:padding="15dip"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dip"
+            android:layout_marginLeft="-3dip"
+            android:layout_marginTop="20dp"
+            android:text="@string/glowny_tytul"
+            android:textColor="@color/tytul"
+            android:textSize="35sp" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="26dp"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/przycisk_kontynuacja"
+                    android:background="@drawable/button"
+                    android:cursorVisible="false"
+                    android:focusableInTouchMode="false"
+                    android:text="@string/nalepka_kontynuacja" />
+
+                <Button
+                    android:id="@+id/przycisk_tworz"
+                    android:background="@drawable/button"
+                    android:cursorVisible="false"
+                    android:enabled="false"
+                    android:focusableInTouchMode="false"
+                    android:text="@string/nalepka_zacznij_gre" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/przycisk_informacje"
+                    android:background="@drawable/button"
+                    android:text="@string/nalepka_informacje" />
+
+                <Button
+                    android:id="@+id/przycisk_wyjscie"
+                    android:background="@drawable/button"
+                    android:text="@string/nalepka_wyjscie" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Spinner
+                    android:id="@+id/brzmienia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="37dp"
+                    android:background="@color/lista"
+                    android:entries="@array/wybor_brzmien"
+                    android:gravity="left" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

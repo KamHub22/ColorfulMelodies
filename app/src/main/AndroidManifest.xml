@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kamil.magisterkaone">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".welcome.Informacje"
+            android:label="@string/tytul_informacje"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".welcome.EkranPowitalny"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PianoActivity" />
+        <activity android:name=".GuitarActivity" />
+        <activity android:name=".VoicesActivity" />
+        <activity android:name=".ViolinActivity" />
+        <activity android:name=".Odtwarzacz" />
+        <activity android:name=".share.Uploads" />
+        <activity android:name=".share.Acords" />
+        <activity android:name=".welcome.DescriptionofSounds"></activity>
+    </application>
+
+</manifest>

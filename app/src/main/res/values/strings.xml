@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Colorful Melodies</string>
+    <string name="action_settings">Action Setting</string>
+    <string name="action_create_order">Złóż zamówienie</string>
+    <string name="action_share">Udostępnij</string>
+    <string name="glowny_tytul">Colorful Melodies</string>
+    <string name="nalepka_kontynuacja">Załaduj</string>
+    <string name="nalepka_zacznij_gre">Twórz</string>
+    <string name="nalepka_informacje">Informacje</string>
+    <string name="nalepka_wyjscie">Wyjście</string>
+    <string name="send_email">Wyślij Emaila</string>
+    <string name="tekst_informacje"> \tJest to symulator pianina. Użytkownik może dzięki wirtualnym klawiszon zagrać różne sekwencje muzyczne i je zapisać.\n
+       \tWbudowany jest tutaj odtwarzacz, który umożliwi odsłuchanie zapisanych pętli melodyjnych. Dowolnie wybrany plik można wrzucić na serwer jakim jest "UploadFiles".\n
+       \tSymulator ma do wyboru 4 rodzaje brzmień:
+        \n*fortepian (Piano)\n*gitare (Guitar)\n*chórek (Human Voices)\n*skrzypce (Violin)</string>
+    <string name="tekst_opisbrzmien">\t<b>Piano</b> - Elegancki, ambientowy fortepian z górną częstotliwością i subtelny, dryfujący pogłos. Wysoka dynamika i harmonia brzmienia.\n
+    \t<b>Guitar</b> - Gitara Baritone\'a ma 6 strun elektrycznych, ale dolna oktawa brzmi jak krzyż pomiędzy Bassem a Gitarą. Koło modowe zmniejsza zniekształcenia. Magia dźwięku.\n
+    \t<b>Human Voices</b> - Angielski chór chłopca śpiewającego trwałe Ahs w katedrze. Mod Wheel steruje czasem ataku i zwolnienia dla legato i wolniejszych przegubów. Bardzo przyjemne, delikatne tony.\n
+    \t<b>Violin</b> - Jest to interesująca sekcja smyczkowa, która mocuje struny mocy przez niektóre loftyfiki z mellotronową solo wiolonczelę i skrzypce. Bardzo przydatny w produkcji pop i rocka.</string>
+    <string name="tytul_informacje">Informacje o aplikacji</string>
+    \
+    <string-array name="wybor_brzmien">
+        <item>Wybierz Dźwięk ↓</item>
+        <item>Piano</item>
+        <item>Guitar</item>
+        <item>Human Voices</item>
+        <item>Violin</item>
+    </string-array>
+
+    <string-array name="szuflada_nawigacyjna">
+        <item>Ekran główny</item>
+        <item>Informacje</item>
+        <item>Odtwarzacz</item>
+        <item>Akordy</item>
+    </string-array>
+</resources>
